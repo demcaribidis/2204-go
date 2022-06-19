@@ -1,0 +1,11 @@
+dist: jammy
+group: dev
+language: go
+arch:
+  - amd64
+  - arm64
+go:
+  - 1.17
+  - 1.18
+script:
+  - go --version
