@@ -1,9 +1,8 @@
-dist: jammy
+dist: xenial
 group: dev
 language: go
 go:
-  - 1.17
-  - 1.18
+  - 1.18.4
 script:
   - go version
   - go run hello.go
